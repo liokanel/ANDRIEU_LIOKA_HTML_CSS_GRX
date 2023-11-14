@@ -1,0 +1,276 @@
+/*
+selecteur{
+    proptiete: valeur;
+    proptiete: valeur;
+    proptiete: valeur;
+    proptiete: valeur;
+}
+selecteur{
+    proptiete: valeur;
+    proptiete: valeur;
+    proptiete: valeur;
+    proptiete: valeur;
+}
+
+*/
+body{
+    background-color: rgb(144, 18,56);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    margin: 15px;
+}
+
+
+
+/* header */
+header{
+    background-color: rgb(163, 215,250);
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.elem_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 33%;
+    height: 100%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    
+}
+
+.maison {
+    height: 25%;
+    width: 25%;
+}
+
+
+.btn{
+    background-color: rgba(29, 29, 29, 0.950);
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 2px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px aliceblue;
+}
+
+.btn:hover{
+    background-color: black;
+
+}
+
+a{
+    color: aliceblue;
+    font-size: x-large;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.perso {
+    height: 10%;
+    width: 10%;
+}
+
+.profil {
+    background-color: black;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 2px;
+
+}
+
+nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+h2 {
+    font-size: 28px;
+    font-weight: 4px;
+    text-decoration: underline 3px black;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* CSS page de profil */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.p_description{
+    margin: 10px;
+    padding: 0;
+}
+
+.lioko_img {
+    max-width: 20%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+.explication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+}
+
+.explication img {
+    border-radius: 30%;
+}
+
+.img_orbital {
+    height: 8%;
+    width: 8%;
+}
+
+.mates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mates_lignes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+.img_mates {
+    max-width: 20%;
+    height: auto;
+}
+
+/* CSS page d'accueil */
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.pp {
+    margin: 15px;
+    padding: 15px;
+    max-width: 90%;
+    height: auto;
+}
+
+.img_crown {
+    height: 8%;
+    width: 8%;
+}
+
+.img_rond {
+    border-radius: 200px;
+    border: 2px solid rgb(163, 215,250);
+    padding: 0;
+}
+
+.colonne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.os_banniere {
+    max-width: 70%;
+    height: auto;
+}
+
+.colonne_div_banniere_OS{
+    width: 70%;
+    border-right: 4px solid black;
+}
+.colonne_div_banjo{
+    width: 15%;
+
+}
+.colonne_div_dadidou{
+    width: 15%;
+    
+}
+
+.texte_colonne{
+    margin-left: 40px;
+}
+
+.presentation_top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main_win{
+    display: flex;
+    flex-direction: row;
+}
+.carte_win{
+    width: 70%;
+}
+.imglioko{
+    width: 30%;
+    border-radius: 20px;
+}
+.textwin{
+    font-size: x-large;
+    color: bisque;
+}
